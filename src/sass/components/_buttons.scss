@@ -1,0 +1,33 @@
+.btn {
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  border: 0;
+  border-radius: 20px;
+}
+
+.btn__contact {
+  border-radius: 22px;
+}
+
+.btn--red {
+  color: var(--white-txt);
+  background: var(--accent-cl-txt);
+}
+
+.btn--white {
+  color: var(--accent-cl-txt);
+  background-color: var(--white-txt);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-cl-btn);
+  }
+}
+
+.btn__products {
+  border-radius: 50%;
+}
