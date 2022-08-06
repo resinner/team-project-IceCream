@@ -1,21 +1,31 @@
 .btn {
-  height: 44px;
+  min-width: 161px;
+  min-height: 44px;
 
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  padding: 11.5px 0;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
 
   border: 0;
-  border-radius: 20px;
-}
-
-.btn__contact {
   border-radius: 22px;
 }
 
 .btn--red {
   color: var(--white-txt);
   background: var(--accent-cl-txt);
+
+  @media screen and (min-width: 768px) {
+    min-width: 191px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    min-width: 198px;
+  }
 }
 
 .btn--white {
@@ -26,8 +36,40 @@
   &:focus {
     background-color: var(--accent-cl-btn);
   }
+
+  @media screen and (min-width: 768px) {
+    min-width: 174px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    min-width: 168px;
+  }
 }
 
 .btn__products {
   border-radius: 50%;
+}
+
+.btn__modal-mob {
+  min-width: 209px;
+
+  @media screen and (min-width: 768px) {
+    min-width: 186px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    min-width: 159px;
+  }
+}
+
+.btn__about {
+  min-width: 176px;
+
+  font-size: 14px;
+  line-height: 1.28;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 1.31;
+  }
 }
