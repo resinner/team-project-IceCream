@@ -1,4 +1,16 @@
+// utility
 @import './utility/reset';
 @import './common';
 @import './example';
 @import './products';
+@import './utility/variables';
+@import './utility/mixins';
+
+// components
+@import './components/title';
+@import './components/container';
+@import './components/buttons';
+
+
+
+// layouts
