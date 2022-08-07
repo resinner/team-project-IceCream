@@ -1,5 +1,20 @@
-.hero__container {
+.hero {
   background-color: var(--hero-bg);
+  position: relative;
+}
+
+.hero__circle {
+  background-color: var(--uppertitle-cl);
+
+  width: 346px;
+  height: 344px;
+
+  border-radius: 50%;
+}
+
+.hero__desc {
+  position: absolute;
+  top: 194px;
 }
 
 .hero__upertitle {
@@ -10,7 +25,7 @@
   line-height: 1.15;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-txt);
 }
 
 .hero__title {
@@ -19,11 +34,12 @@
   font-weight: 400;
   font-size: 48px;
   line-height: 0.95;
-  /* or 46px */
+
+  margin-bottom: 20px;
 
   text-transform: uppercase;
 
-  color: #d41443;
+  color: var(--accent-cl-txt);
 }
 
 .hero__btn {
@@ -33,8 +49,6 @@
 
   font-style: normal;
   font-weight: 400;
-  font-size: 8px;
-  line-height: 1.25;
 
   text-align: center;
 }
