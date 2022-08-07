@@ -1,4 +1,5 @@
 // base
+@import './base/normolize';
 @import './base/common';
 
 // utility
@@ -12,3 +13,4 @@
 @import './components/buttons';
 
 // layouts
+@import './layouts/hero';
