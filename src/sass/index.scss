@@ -1,3 +1,6 @@
+// base
+@import './base/common';
+
 // utility
 @import './utility/reset';
 @import './utility/variables';
@@ -7,7 +10,5 @@
 @import './components/title';
 @import './components/container';
 @import './components/buttons';
-
-
 
 // layouts
