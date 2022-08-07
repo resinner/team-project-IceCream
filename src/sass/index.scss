@@ -1,8 +1,7 @@
+@import './base/common';
 // utility
 @import './utility/reset';
-@import './common';
-@import './example';
-@import './products';
+@import './utility/decimais';
 @import './utility/variables';
 @import './utility/mixins';
 
@@ -14,3 +13,5 @@
 
 
 // layouts
+@import './layouts/hero';
+@import './layouts/products';
