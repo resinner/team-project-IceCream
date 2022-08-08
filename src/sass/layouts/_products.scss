@@ -47,7 +47,7 @@
   overflow: hidden;
 }
 
-.products__button:hover .product__overlay {
+.products__button:hover + .product__overlay {
     transform: translatey(0);
   }
   
