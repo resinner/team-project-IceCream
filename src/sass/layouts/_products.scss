@@ -8,7 +8,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #ffa5ba;
+  color: var(--uppertitle-cl);
 }
 
 .products {
@@ -22,7 +22,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
 
-  color: #d41443;
+  color: var(--accent-cl-txt);
 
   @media screen and (min-width: 768px) {
     margin-bottom: 20px;
@@ -56,13 +56,13 @@
   //   background: #ffb8ca;
   border-radius: 24px;
   &--pinc {
-    background-color: #ffb8ca;
+    background-color: var(--hero-bg);
   }
   &--broun {
-    background-color: #f0d1a5;
+    background-color: var(--brown-txt);
   }
   &--green {
-    background-color: #c2e297;
+    background-color: var(--light-green);
   }
 
   @media screen and (min-width: 768px) {
@@ -259,7 +259,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white-txt);
 
   @media screen and (min-width: 1199px) {
     font-size: 30px;
@@ -295,7 +295,7 @@
   text-align: center;
   letter-spacing: 0.04em;
 
-  color: #ffffff;
+  color: var(--white-txt);
 
   margin-bottom: 32px;
 
@@ -330,7 +330,7 @@
 .products__icon {
   position: absolute;
   z-index: 2;
-  fill: #d41443;
+  fill: var(--accent-cl-txt);
 }
 
 // .products__icon-img{
