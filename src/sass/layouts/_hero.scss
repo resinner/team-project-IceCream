@@ -57,6 +57,10 @@
 
   top: 92px;
   right: 32px;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 .count__item {
@@ -172,6 +176,10 @@
   line-height: 1.5;
 
   color: var(--white-txt);
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 .hero__text::after {
