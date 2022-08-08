@@ -48,7 +48,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-//   gap: 1px;
+  //   gap: 1px;
   margin-top: 140px;
 
   width: 280px;
@@ -100,15 +100,36 @@
 .products__cover--pinc::before {
   //   margin-top: -140px;
   //   margin-bottom: 20px;
-  background-image: url('../images/isecream-products-img/home-pic1.png');
+  background-image: url('../images/isecream-products-img/home-pic1_sm.png');
   background-size: 280px 280px;
   background-repeat: no-repeat;
 
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    .box {
-      background-image: url('../images/isecream-products-img/home-pic1@2x.png');
+    background-image: url('../images/isecream-products-img/home-pic1@2x_sm.png');
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: url('../images/isecream-products-img/home-pic1_md.png');
+    background-size: 224px 224px;
+    background-repeat: no-repeat;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../images/isecream-products-img/home-pic1@2x_md.png');
+    }
+  }
+  @media screen and (min-width: 1199px) {
+    background-image: url('../images/isecream-products-img/home-pic1_lr.png');
+    background-size: 368px 394px;
+    background-repeat: no-repeat;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../images/isecream-products-img/home-pic1@2x_lr.png');
     }
   }
 }
@@ -136,15 +157,36 @@
 .products__cover--broun::before {
   //   margin-top: -140px;
   //   margin-bottom: 20px;
-  background-image: url('../images/isecream-products-img/home-pic2.png');
+  background-image: url('../images/isecream-products-img/home-pic2_sm.png');
   background-size: 280px 280px;
   background-repeat: no-repeat;
 
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    .box {
-      background-image: url('../images/isecream-products-img/home-pic2@2x.png');
+    background-image: url('../images/isecream-products-img/home-pic2@2x_sm.png');
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: url('../images/isecream-products-img/home-pic2_md.png');
+    background-size: 224px 224px;
+    background-repeat: no-repeat;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../images/isecream-products-img/home-pic2@2x_md.png');
+    }
+  }
+  @media screen and (min-width: 1199px) {
+    background-image: url('../images/isecream-products-img/home-pic2_lr.png');
+    background-size: 368px 394px;
+    background-repeat: no-repeat;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../images/isecream-products-img/home-pic2@2x_lr.png');
     }
   }
 }
@@ -172,15 +214,36 @@
 .products__cover--green::before {
   //   margin-top: -140px;
   //   margin-bottom: 20px;
-  background-image: url('../images/isecream-products-img/home-pic3.png');
+  background-image: url('../images/isecream-products-img/home-pic3_sm.png');
   background-size: 280px 280px;
   background-repeat: no-repeat;
 
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    .box {
-      background-image: url('../images/isecream-products-img/home-pic3@2x.png');
+    background-image: url('../images/isecream-products-img/home-pic3@2x_sm.png');
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: url('../images/isecream-products-img/home-pic3_md.png');
+    background-size: 224px 224px;
+    background-repeat: no-repeat;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../images/isecream-products-img/home-pic3@2x_md.png');
+    }
+  }
+  @media screen and (min-width: 1199px) {
+    background-image: url('../images/isecream-products-img/home-pic3_lr.png');
+    background-size: 368px 394px;
+    background-repeat: no-repeat;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../images/isecream-products-img/home-pic3@2x_lr.png');
     }
   }
 }
@@ -214,11 +277,11 @@
     box-shadow: -10px 0 0 rgb(255, 255, 255), 10px 0 0 rgb(255, 255, 255);
 
     @media screen and (min-width: 768px) {
-        top: 37%;
-      }
-      @media screen and (min-width: 1199px) {
-        top: 38%;
-      }
+      top: 37%;
+    }
+    @media screen and (min-width: 1199px) {
+      top: 38%;
+    }
   }
 }
 .products__descr {
