@@ -1,32 +1,54 @@
 <header class="header__box container">
-    <a class="logo " href="#">
-        <img src="#" alt="logo">
+  <div class="header">
+    <a class="logo" href="#">
+      <svg class="logo__icon" width="199" height="50">
+        <use href="./images/icons.svg#icon-header-logo"></use>
+      </svg>
     </a>
 
+
+    <nav class="nav-desktop">
+      <ul class="nav-desktop__list">
+        <li class="nav-desktop__item">Home</li>
+        <li class="nav-desktop__item">About us</li>
+        <li class="nav-desktop__item">How it’s made?</li>
+        <li class="nav-desktop__item">Our products</li>
+        <li class="nav-desktop__item">Contact</li>
+      </ul>
+    </nav>
+
     <button class="mobile-menu__btn" type="button">
-        <svg class="mobile-menu__icon" width="20" height="12">
-            <use class="mobile-menu__burger"></use>
-            <use class="mobile-menu__close"></use>
-        </svg>
+      <svg class="mobile-menu__icon" width="20" height="12">
+        <use class="mobile-menu__burger" href="./images/icons.svg#icon-Burger"></use>
+        <use class="mobile-menu__close" href="./images/icons.svg#icon-close"></use>
+      </svg>
     </button>
 
-    <div class="header__menu">
+    <button class="btn btn--white btn--tablet btn__modal" type="button">
+      Buy now
+      <svg class="btn__icon" width="4" height="8">
+        <use href="#"></use>
+      </svg>
+    </button>
 
-        <button class="btn btn--white" type="button">Buy now
-            <svg class="btn__icon" width="4" height="8">
-                <use href="#"></use>
-            </svg>
-        </button>
+  </div>
 
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item">Home</li>
-                <li class="nav__item">About us</li>
-                <li class="nav__item">How it’s made?</li>
-                <li class="nav__item">Our products</li>
-                <li class="nav__item">Contact</li>
-            </ul>
-        </nav>
+  <div class="header__menu">
+    <button class="btn btn--white btn__modal btn--mobile" type="button">
+      Buy now
+      <svg class="btn__icon" width="4" height="8">
+        <use href="#"></use>
+      </svg>
+    </button>
 
-    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">Home</li>
+        <li class="nav__item">About us</li>
+        <li class="nav__item">How it’s made?</li>
+        <li class="nav__item">Our products</li>
+        <li class="nav__item">Contact</li>
+      </ul>
+    </nav>
+  </div>
 </header>
