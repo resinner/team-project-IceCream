@@ -1,11 +1,25 @@
 .contacts__container{
-    background-image: linear-gradient(
-        to top
-        #fff 15%,
-        #FFF5F6 15%,
-        #FFF5F6 85%,
-    );
-
+    background: linear-gradient(to bottom,
+                #fff 0%,
+                #fff 25%,
+                #fff5f6 25%,
+                #fff5f6 100%);
+    
+        @media screen and (min-width: 768px) {
+            background: linear-gradient(to bottom,
+                    #fff 0%,
+                    #fff 50%,
+                    #fff5f6 50%,
+                    #fff5f6 100%);
+        }
+    
+        @media screen and (min-width: 1200px) {
+            background: linear-gradient(to bottom,
+                    #fff 0%,
+                    #fff 16%,
+                    #fff5f6 16%,
+                    #fff5f6 100%);
+        }
     @media screen and (min-width: 768px) {
        padding-right: 20px;
        padding-left: 20px;
