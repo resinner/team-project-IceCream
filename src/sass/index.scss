@@ -6,6 +6,7 @@
 @import './utility/reset';
 @import './utility/variables';
 @import './utility/mixins';
+@import './utility/visually-hidden';
 
 // components
 @import './components/title';
@@ -16,3 +17,12 @@
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/gallery';
+
+// @import './layouts/products';
+// @import './layouts/about';
+@import './layouts/advantages';
+// @import './layouts/gallery';
+// @import './layouts/customer-reviews';
+@import './layouts/contacts';
+// @import './layouts/footer';
+
